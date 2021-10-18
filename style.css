@@ -9,6 +9,10 @@ body {
   padding: 0;
 }
 
+html {
+  font-size: 1.125rem;
+}
+
 strong {
   color: hsl(160deg, 100%, 30%);
 }
@@ -27,6 +31,14 @@ header {
   max-width: 400px;
 }
 
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
 
 main {
   border-top: 4px solid hsl(0deg, 0%, 40%);
